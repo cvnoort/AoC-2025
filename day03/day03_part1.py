@@ -22,4 +22,4 @@ def find_max_joltage(bank: list):
 if __name__ == "__main__":
     banks = get_banks(sys.argv[1])
     max_joltages = [find_max_joltage(bank) for bank in banks]
-    print("The total output joltage is ", sum(max_joltages))
+    print("The total output joltage is", sum(max_joltages))
